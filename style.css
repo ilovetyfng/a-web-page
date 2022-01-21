@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto, sans-serif;
+    margin: 0px;
+}
+
+.header, .img-section, .footer{
+    background-color: #1F2937;
+    margin: 0px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.second-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 256px;
+    align-items: center;
+}
+
