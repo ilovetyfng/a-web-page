@@ -51,10 +51,9 @@ body {
     padding: 8px 32px;
     border-width: 0px;
     border-radius: 8px;
-}
-
-.sign-up .second-text{
     font-weight: bold;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .info-section {
@@ -96,7 +95,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 128px 384px;
+    padding: 128px 512px;
 }
 
 .quote {
@@ -115,4 +114,32 @@ body {
 .quote-author {
     font-size: 24px;
     font-weight: bold;
+}
+
+.sign-up-section {
+    margin: 128px 256px;
+    padding: 64px 128px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.call-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up-section .sign-up {
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-width: 2px;
 }
